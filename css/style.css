@@ -1,0 +1,55 @@
+*{
+	font-family: Lato, Calibri;
+}
+header{
+	text-align: center;
+	box-shadow: 0 15px 30px -30px rgba(0,0,0,0.5);
+	padding: 15px 0;
+	margin-bottom: 25px;
+}
+
+.display-flex{
+	display:flex;
+}
+.page{
+	width: 800px;
+	flex-direction: column;
+	margin:auto;
+}
+.tabs{
+	font-weight: 900;
+}
+.tabs > h2{
+	margin:0 10px;
+}
+.tabs h2:nth-child(1){
+	padding-bottom: 15px;
+	border-bottom: 5px solid green;
+}
+.tabs h2:nth-child(n+2){
+	color: grey;
+}
+.tabs a{
+	text-decoration: none;
+	color: grey;
+}
+.all-notifs{
+	background-color: white;
+}
+.notif{
+	align-items: center;
+	border-bottom: 1px solid lightgrey;
+	background-color: #ffffff;
+	font-weight: 500;
+}
+.image{
+	margin: 5px 20px;
+}
+.date{
+	font-weight:bold;
+	color: grey;
+}
+.notif a{
+	text-decoration: none;
+	color: #0099cc;
+}
