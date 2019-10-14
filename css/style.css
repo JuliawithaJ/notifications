@@ -38,6 +38,7 @@ header{
 }
 .notif{
 	align-items: center;
+	justify-content: space-between;
 	border-bottom: 1px solid lightgrey;
 	background-color: #ffffff;
 	font-weight: 500;
@@ -52,4 +53,16 @@ header{
 .notif a{
 	text-decoration: none;
 	color: #0099cc;
+}
+.opacity{
+	opacity: 0;
+	text-align:right;
+}
+.opacity:hover{
+	opacity:1;
+}
+.right{
+	width:400px;
+	color: grey;
+
 }
